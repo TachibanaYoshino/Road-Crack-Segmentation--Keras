@@ -1,5 +1,6 @@
 # Road-Crack-Segmentation--Keras
 The project uses Unet-based improved networks to study road crack segmentation, which is based on keras.  
+GCUnet is an improvement to Unet that introduces the Global Context Block in Unet.  
 ----  
 ## Requirements  
 - python 3.6.8  
