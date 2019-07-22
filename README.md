@@ -20,7 +20,7 @@ GCUnet is an improvement to Unet that introduces the Global Context Block in Une
 ### 2. Train  
   eg. `python train.py --train_images dataset/CRACK500/traincrop/ --train_annotations dataset/CRACK500/traincrop/ --epoch 100 --batch_size 32`  
 
-### 4. Test  
+### 3. Test  
   eg. `python test.py --save_weights_path 'checkpoint/'+ 'Unet/' + 'weights-099-0.1416-0.9787.h5 --vis False`  
   
 ## Results 
