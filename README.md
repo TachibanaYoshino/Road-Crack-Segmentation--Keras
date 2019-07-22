@@ -23,3 +23,4 @@ The project uses Unet-based improved networks to study road crack segmentation, 
   eg. `python test.py --save_weights_path 'checkpoint/'+ 'Unet/' + 'weights-099-0.1416-0.9787.h5 --vis False`  
   
 ## Results 
+![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/  
