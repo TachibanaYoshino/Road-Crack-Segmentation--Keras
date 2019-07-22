@@ -25,5 +25,6 @@ The project uses Unet-based improved networks to study road crack segmentation, 
 ## Results 
 ![](https://github.com/TachibanaYoshino/Road-Crack-Segmentation--Keras/blob/master/result.png)  
 
+![](https://github.com/TachibanaYoshino/Road-Crack-Segmentation--Keras/blob/master/Unet_predict/20160222_081839_641_721.jpg)  
 
 
