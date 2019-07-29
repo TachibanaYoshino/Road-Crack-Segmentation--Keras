@@ -5,7 +5,7 @@ GCUnet is an improvement to Unet that introduces the Global Context Block in Une
 ## Requirements  
 - python 3.6.8  
 - tensorflow-gpu 1.8 
-- Ketas 2.2.4
+- Keras 2.2.4
 - opencv  
 - tqdm  
 - numpy  
