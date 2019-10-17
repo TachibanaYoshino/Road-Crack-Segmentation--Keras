@@ -95,7 +95,7 @@ if args.vis:
 
         outName = os.path.join(output_path,os.path.basename(imgName))
 
-        X,gt = data_loader.getImageArr(imgName, gt_seg[i], img_width, img_height,False)
+        X,gt = data_loader.getImageArr(imgName, gt_seg[i], img_width, img_height,False, phase='test')
         pr = pred[i, :,:]
         gt = np.argmax(gt, axis=-1)
         output_test_image(X, pr, gt, outName)
