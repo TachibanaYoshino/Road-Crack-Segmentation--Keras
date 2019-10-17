@@ -55,10 +55,10 @@ print("Model output shape: {}".format(m.output_shape))
 
 
 train_gen = data_loader.imageSegmentationGenerator(train_images_path,
-                  train_segs_path, batch_size, img_height, img_width, args.augment)
+                  train_segs_path, batch_size, img_height, img_width, args.augment, phase='train')
 
 val_gen = data_loader.imageSegmentationGenerator(val_images_path,
-                val_segs_path, batch_size, img_height, img_width, False)
+                val_segs_path, batch_size, img_height, img_width, False, phase='test')
 
 filepath = "weights-{epoch:03d}-{val_loss:.4f}-{val_acc:.4f}.h5"
 model_weights = os.path.join(args.model, filepath)
